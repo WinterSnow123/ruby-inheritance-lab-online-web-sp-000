@@ -6,4 +6,7 @@ class Student < User
     @knowledge = []
   end
 
+def learn
+  KNOWLEDGE.sample(1)[0]
+end
 end
