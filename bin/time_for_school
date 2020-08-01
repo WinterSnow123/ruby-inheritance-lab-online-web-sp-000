@@ -16,6 +16,10 @@ avi = Teacher.new
 avi.first_name = "Avi"
 avi.last_name = "Flombaum"
 
+jim = User.new
+jim.first_name = "Jim"
+jim.last_name = "Smith"
+
 
 some_knowledge = avi.teach
 
@@ -34,3 +38,7 @@ last_knowledge = avi.teach
 christine.learn(last_knowledge)
 
 puts "Christine just learned '#{christine.knowledge.first}' from Avi."
+
+jim.learn(last_knowledge)
+
+puts "This is what Jim did not learn '#{jim.knowledge.first}'."
