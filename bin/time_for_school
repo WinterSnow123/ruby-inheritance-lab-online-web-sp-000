@@ -41,4 +41,4 @@ puts "Christine just learned '#{christine.knowledge.first}' from Avi."
 
 jim.learn(last_knowledge)
 
-puts "This is what Jim did not learn '#{jim.knowledge.first}'."
+puts "This is what Jim did not learn '#{last_knowledge}'."
